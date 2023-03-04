@@ -1,0 +1,130 @@
+
+
+
+
+/* Footer */
+ 
+#contacto{
+    width: 100%;
+    min-height: 1200px;
+    background: linear-gradient(#fff,#A9A9A9 95%);
+    box-shadow: 5px 3px 7px 10px #a9a9a9;
+    .container-contact{
+        width: 100%;
+        height: 600px;
+        background-color: #eee;
+        box-shadow: 10px 10px 20px #A9A9A9;
+        display: flex;
+        flex-direction: row;
+        & .row{
+            width: 100%;
+            .container-infocontact-uno{
+                background-image: url(../../assets/img/fondo-ferreteria-1.webp);
+                background-position: center;
+                width: 60%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .title-h2{
+                    color: #302F2F;
+                    font-size: 3rem;
+                    text-align: center;
+                    padding: 30px;
+                }
+                
+            }
+            .container-infocontact{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                .title-h4{
+                    color: #302F2F;
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding: 30px;
+                }
+                .title-h5{
+                    color: #302F2F;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding: 30px;
+                }
+                .telefono{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    & img{
+                        width: 50px;
+                        height: 50px;
+                    } 
+                }
+            }
+            .title-h3{
+                color: #302F2F;
+                font-size: 2rem;
+                text-align: center;
+                padding: 30px;
+            }
+        }
+    }
+
+    /* final del footer */
+
+    .footer{
+        width: 100%;
+        min-height: 300px;
+        padding-top: 50px;
+        .footer-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-right: 2px solid #9a9a9a;
+            font-size: 1.2rem;
+            & > div{
+                text-decoration: none;
+                padding: 10px;
+                color: #302F2F;
+            }
+            & > a{
+                text-decoration: none;
+                padding: 10px;
+                color: #302F2F;
+            }
+            & div > a{
+                text-decoration: none;
+                padding: 10px;
+                color: #302F2F;
+            }
+            & div{
+                width: 200px;
+            }
+            & a:hover{
+                transform: scale(1.2);
+            }
+            & div:hover{
+                transform: scale(1.2);
+            }
+            .title-info-footer{
+                background-color: #F46036;
+                width: 300px;
+                height: 50px;
+                border-radius: 50px 0px 50px 50px;
+                color: #fff;
+                font-size: 1.8rem;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+        
+    }
+    .copyright{
+        font-size: 1rem;
+        color: #000;
+        text-align: center;
+        margin: 30px;
+    }
+}

@@ -1,0 +1,88 @@
+
+
+
+/* PÁGINA PRESUPUESTO */
+
+
+
+.title-section{
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: map-get($colores, colortexto);
+  padding: 50px;
+}
+
+form{
+    padding: 80px 40px ;
+    border-radius: 10px;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: map-get($colores, lila);
+    color: map-get($colores, blanco);
+    font-size: 1.2rem;
+    margin-bottom: 300px;
+    fieldset{
+        border: none;
+        padding: 1rem 0;
+        label {
+            display: block;
+            margin: 0.5rem 0;
+          }
+        input,textarea, .caja {
+        
+            border: none;
+            margin: 10px 0 0 0;
+            width: 100%;
+            min-height: 2.5em;
+            border-radius: 10px;
+            font-size: 18px;
+            color: map-get($colores, grisoscuro);
+            padding: 10px;
+        }
+        .objetivo{
+            min-height: 3em;
+          }
+          select{
+            margin: 10px 0;
+            width: 101%;
+            min-height: 2.5em;
+            border-radius: 5px;
+            border: none;
+            font-size: 18px;
+            color: map-get($colores, grisoscuro);
+              }
+              textarea{
+                min-height: 3em;
+              }
+              .inline {
+                width: unset;
+                margin: 0 0.5em 0 0;
+                vertical-align: middle;
+              }
+              .caja{
+                width: 1vw;
+              }
+    }
+    input[type="submit"]{
+      display: block;
+      width: 100%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.2rem;
+      background-color: map-get($colores, naranja);
+      color: map-get($colores, negro);
+      border: none;
+      border-radius: 10px;
+      
+ &:hover{
+      background-color: #E09F3E;
+  }
+    }
+    
+}
+
+

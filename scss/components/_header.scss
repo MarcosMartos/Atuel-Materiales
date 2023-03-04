@@ -1,0 +1,32 @@
+
+/* Barra de navegación */
+
+header{
+    width: 100%;
+     nav.navbar{
+      background: linear-gradient(#1f1c37,#2E294E) ;
+     }
+     .navbar{
+      padding: 2rem;
+      .navbar-toggler{
+      background-color: #3a3462;
+        }
+      .navbar-collapse{
+      align-items: center;
+      justify-content: space-between;
+      .nav-link{
+        color: white;
+        margin-right: 10px;
+        &:hover{
+            color: #E09F3E;
+        }
+    }
+    .background-contact{
+      background-color: #F46036;
+      padding: 5px;
+      border-radius: 20px;
+  }
+  }
+    
+    }
+  }

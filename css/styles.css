@@ -185,7 +185,7 @@ nav.navbar{
 
 /* Sección de información */
 
-#informacion{
+#nosotros{
     width: 100%;
     height: 800px;
     background-color: #fff;
@@ -330,7 +330,7 @@ nav.navbar{
 
 
 .container-infocontact-uno{
-    background-image: url(../img/fondo\ ferreteria\ 1.jpg);
+    background-image: url(../img/fondo-ferreteria-1.jpg);
     background-position: center;
     width: 60%;
     height: 100%;
@@ -668,9 +668,6 @@ input[type="submit"]:hover{
 
 
 /* PÁGINA UN PRODUCTO */
-
-
-
 
     .container-producto{
         width: 100%;
@@ -1043,4 +1040,3 @@ form{
 
    
 }
-

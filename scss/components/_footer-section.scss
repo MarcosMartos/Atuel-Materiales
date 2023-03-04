@@ -1,0 +1,53 @@
+
+
+
+.ftproductos{
+    width: 100%;
+    min-height: 300px;
+    padding-top: 50px;
+    background: linear-gradient(180deg, #eee, #A9A9A9);
+    box-shadow: 3px -5px 10px #d9d9d9;
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 2px solid #9a9a9a;
+        font-size: 1.2rem;
+        & > div{
+            text-decoration: none;
+            padding: 10px;
+            color: #302F2F;
+        }
+        & > a{
+            text-decoration: none;
+            padding: 10px;
+            color: #302F2F;
+        }
+        & div > a{
+            text-decoration: none;
+            padding: 10px;
+            color: #302F2F;
+        }
+        & div{
+            width: 200px;
+        }
+        & a:hover{
+            transform: scale(1.2);
+        }
+        & div:hover{
+            transform: scale(1.2);
+        }
+        .title-info-footer{
+            background-color: #F46036;
+            width: 300px;
+            height: 50px;
+            border-radius: 50px 0px 50px 50px;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    
+}

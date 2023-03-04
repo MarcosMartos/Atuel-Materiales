@@ -1,0 +1,105 @@
+
+
+
+/* PÁGINA NOSOTROS */
+
+/* Sección principal */
+
+.container-title-nosotros{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    .section-title-nosotros{
+        background-color: map-get($colores, lila);
+        text-align: center;
+        font-size: 2.2rem;
+        color: map-get($colores, blanco);
+        padding-top: 200px;
+    }
+}
+
+/* informacion biografica */
+
+.container-nosotros-grid{
+    padding: 20px;
+    .info1{
+        .info-biografica{
+            font-size: 1.1rem;
+            .slogan-info{
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            & h4{
+                margin-bottom: 2rem;
+            }
+            .title-info{
+                background-color: map-get($colores, naranja);
+                width: 350px;
+                height: 60px;
+                border-radius: 50px 0px 50px 50px;
+                color: map-get($colores, blanco);
+                font-size: 2rem;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    }
+
+        .info2{
+            .image-info-nosotros{
+                max-width: 600px;
+                & img{
+                    width: 100%;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+  .info3{
+    .image-info-nosotros{
+        max-width: 600px;
+        & img{
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+  }
+  .info4{
+    .bio-section{
+        font-size: 1.1rem;
+        .slogan-info{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+  }
+}
+
+
+/* contadores */
+
+ .accountants-section{
+    width: 80%;
+    margin: 100px 10% 100px 10%;
+    padding: 30px;
+    .accountant{
+        width: 230px;
+        height: 130px;
+        background-color: map-get($colores, grismedio);
+        border-radius: 30px;
+        border: 2px solid map-get($colores, verde);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .info-accountant h4{
+            font-size: 2.5rem;
+            color: map-get($colores, verde);
+            text-align: center;
+        }
+        .info-accountant p{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    }
+}
