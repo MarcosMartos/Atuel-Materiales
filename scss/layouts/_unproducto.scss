@@ -1,7 +1,7 @@
 
 
 
-/* PÁGINA UN PRODUCTO */
+// PÁGINA UN PRODUCTO 
 
 .container-producto{
     width: 100%;
@@ -63,7 +63,7 @@
 
 .related-product{
     background-color: map-get($colores, grisclaro);
-    margin-bottom: 100px;
+    min-height: 650px;
     @import "../components/card";
 } 
 

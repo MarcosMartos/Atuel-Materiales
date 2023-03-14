@@ -27,7 +27,6 @@ header {
         padding: 5px;
         border-radius: 20px; }
 
-/* Banner */
 #banner {
   width: 100%;
   max-height: 540px;
@@ -35,7 +34,6 @@ header {
   background-size: 110%;
   background-position: center; }
 
-/* Categorías */
 #categorias {
   width: 100%;
   min-height: 450px;
@@ -75,12 +73,10 @@ header {
         font-size: 1.1rem;
         font-weight: bold; }
 
-/* Productos destacados */
 #productos {
   width: 100%;
   height: 1100px;
-  background-color: #eee;
-  /* Cards */ }
+  background-color: #eee; }
   #productos .title-section {
     display: block;
     text-align: center;
@@ -130,7 +126,6 @@ header {
           #productos .pd .card .card-body .card-btn:hover {
             background-color: #F46036; }
 
-/* Sección de información */
 #nosotros {
   width: 100%;
   height: 800px;
@@ -196,7 +191,6 @@ header {
           background-color: #1B998B;
           transform: scale(1.05); }
 
-/* Modos de pago */
 #modosdepago {
   width: 100%;
   height: 600px;
@@ -217,13 +211,11 @@ header {
         font-size: 2rem;
         text-align: center; }
 
-/* Footer */
 #contacto {
   width: 100%;
   min-height: 1200px;
   background: linear-gradient(#fff, #A9A9A9 95%);
-  box-shadow: 5px 3px 7px 10px #a9a9a9;
-  /* final del footer */ }
+  box-shadow: 5px 3px 7px 10px #a9a9a9; }
   #contacto .container-contact {
     width: 100%;
     height: 600px;
@@ -283,8 +275,10 @@ header {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border-right: 2px solid #9a9a9a;
+      border-right: 1.5px solid gray;
       font-size: 1.2rem; }
+      #contacto .footer .footer-section:nth-child(3n) {
+        border-right: 0; }
       #contacto .footer .footer-section > div {
         text-decoration: none;
         padding: 10px;
@@ -318,8 +312,6 @@ header {
     text-align: center;
     margin: 30px; }
 
-/* PÁGINA NOSOTROS */
-/* Sección principal */
 .container-title-nosotros {
   width: 100%;
   height: 500px;
@@ -331,7 +323,6 @@ header {
     color: #fff;
     padding-top: 200px; }
 
-/* informacion biografica */
 .container-nosotros-grid {
   padding: 20px; }
   .container-nosotros-grid .info1 .info-biografica {
@@ -366,7 +357,6 @@ header {
       font-size: 2rem;
       margin-bottom: 1rem; }
 
-/* contadores */
 .accountants-section {
   width: 80%;
   margin: 100px 10% 100px 10%;
@@ -389,7 +379,6 @@ header {
       text-align: center;
       font-size: 1.2rem; }
 
-/* PÁGINA PRESUPUESTO */
 .title-section {
   display: block;
   text-align: center;
@@ -455,7 +444,6 @@ form {
     form input[type="submit"]:hover {
       background-color: #E09F3E; }
 
-/* PÁGINAS SECCIONES */
 .section-title-section {
   width: 100%;
   height: 200px;
@@ -558,7 +546,6 @@ form {
       text-align: center;
       padding: 10px; }
 
-/* PÁGINA UN PRODUCTO */
 .container-producto {
   width: 100%;
   margin-top: 5%; }
@@ -601,7 +588,7 @@ form {
 
 .related-product {
   background-color: #eee;
-  margin-bottom: 100px;
+  min-height: 650px;
   /* Cards */ }
   .related-product .pd {
     display: flex;
@@ -645,14 +632,11 @@ form {
           .related-product .pd .card .card-body .card-btn:hover {
             background-color: #F46036; }
 
-/* MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
-  /*Productos destacados */
   #productos {
     width: 100%;
     height: 2000px;
     background-color: #eee; }
-  /* Seccion de informacion */
   #nosotros {
     width: 100%;
     height: 1500px;
@@ -677,11 +661,8 @@ form {
           height: 350px;
           border-radius: 50px;
           padding: 20px; }
-  /* Footer */
   #contacto .container-contact {
     display: none; }
-  /* PÁGINA NOSOTROS */
-  /* Banner */
   .container-title-nosotros {
     height: 300px;
     margin-bottom: 0px; }
@@ -690,43 +671,34 @@ form {
       padding-bottom: 100px; }
     .container-title-nosotros .image-title-nosotros {
       display: none; }
-  /* Contadores */
   .accountant {
     width: 180px;
     height: 120px;
     margin-top: 20px; } }
 
 @media screen and (max-width: 991px) {
-  /* PÁGINA PRINCIPAL */
-  /* Categorias */
   #categorias {
     width: 100%;
     min-height: 450px;
     padding-bottom: 250px; }
     #categorias .category-list .row {
       height: 400px; }
-  /* Productos destacados */
   #productos {
     width: 100%;
     height: 2000px;
     background-color: #eee; }
-  /* Footer */
   #contacto {
     width: 100%;
     min-height: 400px;
     background: linear-gradient(#fff, #A9A9A9 95%); }
-    #contacto .footer-section {
+    #contacto .footer .footer-section {
       border-bottom: 2px solid #9a9a9a;
       border-right: none; }
-  /* PÁGINA NOSOTROS */
-  /* Banner */
   .container-title-nosotros {
     height: 300px;
     margin-bottom: 0px; }
-  /* seccion de informacion biografica */
   .image-delete {
     display: none; }
-  /* PÁGINA DE SECCIONES */
   .section-title-section {
     justify-content: center; }
     .section-title-section .section-title-section h1 {
@@ -734,18 +706,14 @@ form {
       margin-left: 0px; } }
 
 @media screen and (max-width: 767px) {
-  /* Página principal */
-  /* Navbar */
   .navbar-brand {
     display: none; }
-  /* Banner */
   .logo-banner {
     width: 300px;
     height: 300px; }
     .logo-banner img {
       width: 100%;
       height: 100%; }
-  /* Categorias */
   #categorias {
     width: 100%;
     min-height: 450px;
@@ -755,12 +723,10 @@ form {
       #categorias .category-list .row .sct {
         display: flex;
         justify-content: center; }
-  /* Productos destacados */
   #productos {
     width: 100%;
     height: 3800px;
     background-color: #eee; }
-  /* Seccion de informacion */
   #nosotros {
     height: 1400px; }
     #nosotros .container-info .info-section .title-info {
@@ -783,7 +749,6 @@ form {
         font-size: 1.4rem; }
     #nosotros .container-info .info-section .image-info-section img {
       height: 250px; }
-  /* Seccion de informacion */
   #nosotros {
     height: 1400px; }
     #nosotros .container-info .info-section .a-info {
@@ -793,7 +758,6 @@ form {
     #nosotros .container-info .info-section .image-info-section {
       height: 250px;
       padding: 40px; }
-  /* Modos de pago */
   #modosdepago {
     width: 100%;
     height: 1500px; }
@@ -804,23 +768,18 @@ form {
       justify-content: center; }
       #modosdepago .container-modosdepago .modo {
         width: 100%; }
-  /* PÁGINA NOSOTROS */
   .accountants-section .info-accountant h4 {
     font-size: 2.1rem;
     padding-top: 20px; }
   .accountants-section .info-accountant p {
     padding: 10px;
     font-size: 1.1rem; }
-  /* PÁGINA PRESUPUESTO */
-  /* Formulario */
   form {
     width: 80vw; } }
 
 @media screen and (max-width: 413px) {
-  /* PÁGINA PRESUPUESTO */
   form {
     width: 90vw; }
-  /* PÁGINA SECCIONES */
   .section-title-section h1 {
     margin-left: 10%; }
   .ftproductos {
