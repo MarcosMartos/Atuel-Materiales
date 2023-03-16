@@ -459,8 +459,7 @@ form {
   background-color: #fff;
   width: 100%;
   height: 80%;
-  margin-bottom: 100px;
-  /* Cards */ }
+  margin-bottom: 100px; }
   .productos-seccion .card {
     margin-bottom: 50px; }
   .productos-seccion .pd {
@@ -588,8 +587,7 @@ form {
 
 .related-product {
   background-color: #eee;
-  min-height: 650px;
-  /* Cards */ }
+  min-height: 650px; }
   .related-product .pd {
     display: flex;
     justify-content: center; }

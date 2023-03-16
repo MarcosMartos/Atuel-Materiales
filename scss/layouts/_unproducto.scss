@@ -1,5 +1,6 @@
 
-
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
 
 // PÁGINA UN PRODUCTO 
 
@@ -64,6 +65,6 @@
 .related-product{
     background-color: map-get($colores, grisclaro);
     min-height: 650px;
-    @import "../components/card";
+    @include tarjeta;
 } 
 

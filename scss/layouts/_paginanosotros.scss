@@ -1,4 +1,6 @@
 
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
 
 
 // PÁGINA NOSOTROS
@@ -24,7 +26,7 @@
     padding: 20px;
     .info1{
         .info-biografica{
-            font-size: 1.1rem;
+            @include letratexto;
             .slogan-info{
                 font-size: 2rem;
                 margin-bottom: 1rem;
@@ -66,7 +68,7 @@
   }
   .info4{
     .bio-section{
-        font-size: 1.1rem;
+        @include letratexto;
         .slogan-info{
             font-size: 2rem;
             margin-bottom: 1rem;
